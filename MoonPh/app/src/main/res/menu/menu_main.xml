@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.moonph.MainActivity">
+    <group
+            android:checkableBehavior="single">
+        <item android:title="Simple" android:id="@+id/menu_sim"/>
+        <item android:title="Conway" android:id="@+id/menu_con"/>
+        <item android:title="Trig1" android:id="@+id/menu_tr1"/>
+        <item android:title="Trig2" android:id="@+id/menu_tr2"/>
+    </group>
+</menu>
